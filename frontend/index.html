@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestión de personas</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
+  </head>
+  <body>
+    <h1>Registrarme</h1>
+    <form id="formulario">
+      <label for="nombre">Nombre usuario</label>
+      <input
+        type="text"
+        id="nombre"
+        placeholder="Escribe un nombre de usuario cualquiera"
+      />
+      <span class="error" id="error-nombre"></span>
+
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" placeholder="Ingrese una contraseña">
+      <span class="error" id="error-password"></span>
+
+      <label for="password-confirmacion">Confirmar contraseña</label>
+      <input type="password" id="password-confirmacion" placeholder="Confirme su contraseña">
+      <span class="error" id="error-password-confirmacion"></span>
+
+
+      <input type="submit" id="boton-envio" value="Registrarme" />
+    </form>
+
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>

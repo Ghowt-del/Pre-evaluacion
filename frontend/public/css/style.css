@@ -1,0 +1,37 @@
+label {
+  display: block;
+  margin-bottom: 0.2rem;
+  margin-top: 0.6rem;
+}
+
+.error {
+  color: red;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  display: block;
+  width: 200px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 1rem;
+  border: 0.3px solid gray;
+}
+
+select {
+  display: block;
+  width: 200px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 1rem;
+  border: 0.3px solid gray;
+}
+
+input[type="submit"] {
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-color: green;
+  padding: 0.4rem 1rem;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
